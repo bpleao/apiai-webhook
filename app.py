@@ -42,28 +42,28 @@ def webhook():
 
 
 def processRequest(req):
-	result = req.get("result")
+    result = req.get("result")
     if result.get("action") != "getSpiritsBookResponse":
         return {}
-	
+    
     parameters = result.get("parameters")
     conceito = parameters.get("conceito")
-	
+    
     if conceito is None or len(conceito) == 0:
         return {}
 
     intent = result.get("metadata").get("intentName")
-	
-	k = [intent]
-	k.extend(sorted(conceito))
-	t = tuple(k)
-	print(t)
-	
-	if t in responseDict.keys():
-		response = random.sample(responseDict[t],1)
-	else:
-		response = "Desculpe, não entendi. Por favor faça outra pergunta."
-	
+    
+    k = [intent]
+    k.extend(sorted(conceito))
+    t = tuple(k)
+    print(t)
+    
+    if t in responseDict.keys():
+        response = random.sample(responseDict[t],1)
+    else:
+        response = "Desculpe, não entendi. Por favor faça outra pergunta."
+    
     print("Response:")
     print(response)
 
