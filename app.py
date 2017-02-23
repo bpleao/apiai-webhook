@@ -22,7 +22,7 @@ import random
 app = Flask(__name__)
 
 responseDict = {
-("Definir","Deus"):["Que é Deus?"]
+(u"Definir",u"Deus"):[u"1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 }
 
 @app.route('/webhook', methods=['POST'])
@@ -35,7 +35,7 @@ def webhook():
     res = processRequest(req)
 
     res = json.dumps(res, indent=4)
-    # print(res)
+    print(res)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return r
