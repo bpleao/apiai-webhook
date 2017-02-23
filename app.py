@@ -22,7 +22,7 @@ import random
 app = Flask(__name__)
 
 responseDict = {
-(u"Definir",u"Deus"):[u"1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
+("Definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 }
 
 @app.route('/webhook', methods=['POST'])
@@ -68,7 +68,7 @@ def processRequest(req):
     print(response)
 
     return {
-        # "speech": response,
+        "speech": response,
         "displayText": response,
         # "data": data,
         # "contextOut": [],
