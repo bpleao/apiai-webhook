@@ -60,7 +60,7 @@ def processRequest(req):
     print(t)
     
     if t in responseDict.keys():
-        response = random.sample(responseDict[t],1)
+        response = random.sample(responseDict[t],1)[0]
     else:
         response = "Desculpe, não entendi. Por favor faça outra pergunta."
     
