@@ -47,8 +47,8 @@ def processRequest(req):
         return {}
     
     parameters = result.get("parameters")
-    #conceito = parameters.get("conceito")
-    conceito = parameters.get("Deus")
+    conceito = parameters.get("conceito")
+    #conceito = parameters.get("Deus")
     
     if conceito is None or len(conceito) == 0:
         return {}
