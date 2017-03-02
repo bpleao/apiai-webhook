@@ -22,7 +22,7 @@ import random
 app = Flask(__name__)
 
 responseDict = {
-("Definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
+("definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 }
 
 @app.route('/webhook', methods=['POST'])
@@ -47,7 +47,8 @@ def processRequest(req):
         return {}
     
     parameters = result.get("parameters")
-    conceito = parameters.get("conceito")
+    #conceito = parameters.get("conceito")
+	conceito = parameters.get("Deus")
     
     if conceito is None or len(conceito) == 0:
         return {}
@@ -55,10 +56,12 @@ def processRequest(req):
     intent = result.get("metadata").get("intentName")
     
     k = [intent]
-    k.extend(sorted(conceito))
+	# eliminating duplicate entries and sorting to transform to tuple
+    k.extend(sorted(list(set(conceito))))
     t = tuple(k)
     print(t)
     
+	# TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
     if t in responseDict.keys():
         response = random.sample(responseDict[t],1)[0]
     else:
