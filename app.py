@@ -48,7 +48,7 @@ def processRequest(req):
     
     parameters = result.get("parameters")
     #conceito = parameters.get("conceito")
-	conceito = parameters.get("Deus")
+    conceito = parameters.get("Deus")
     
     if conceito is None or len(conceito) == 0:
         return {}
@@ -56,12 +56,12 @@ def processRequest(req):
     intent = result.get("metadata").get("intentName")
     
     k = [intent]
-	# eliminating duplicate entries and sorting to transform to tuple
+    # eliminating duplicate entries and sorting to transform to tuple
     k.extend(sorted(list(set(conceito))))
     t = tuple(k)
     print(t)
     
-	# TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
+    # TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
     if t in responseDict.keys():
         response = random.sample(responseDict[t],1)[0]
     else:
