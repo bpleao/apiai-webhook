@@ -17,13 +17,16 @@ from flask import request
 from flask import make_response
 
 import random
+import pickle
 
 # Flask app should start in global layout
 app = Flask(__name__)
 
-responseDict = {
-("definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
-}
+with open("webhook_pickle.p", "rb") as p:
+    responseDict = pickle.load(p)
+#responseDict = {
+#("definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
+#}
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
@@ -46,18 +49,20 @@ def processRequest(req):
     if result.get("action") != "getSpiritsBookResponse":
         return {}
     
+    entities = []
     parameters = result.get("parameters")
-    conceito = parameters.get("conceito")
-    #conceito = parameters.get("Deus")
-    
-    if conceito is None or len(conceito) == 0:
-        return {}
-
+    for parameter in parameters:
+        for value in parameters[parameter]:
+            if isinstance(value,dict):
+                entities.append(parameter)
+                break
+            else:
+                entities.append(":".join([parameter,value]))
     intent = result.get("metadata").get("intentName")
     
     k = [intent]
     # eliminating duplicate entries and sorting to transform to tuple
-    k.extend(sorted(list(set(conceito))))
+    k.extend(sorted(list(set(entities))))
     t = tuple(k)
     print(t)
     
