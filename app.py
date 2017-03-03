@@ -70,7 +70,9 @@ def processRequest(req):
     if t in responseDict.keys():
         print("key found in dict:")
         print(responseDict[t])
-        response = random.sample(responseDict[t],1)[0]
+        #TEMP
+        #response = random.sample(responseDict[t],1)[0]
+        response = responseDict[t][0]
         print(response)
     else:
         response = "Desculpe, não entendi. Por favor faça outra pergunta."
