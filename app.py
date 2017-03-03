@@ -58,7 +58,8 @@ def processRequest(req):
                 entities.append(":".join([name,value]))
         else:
             # composite values are not provided as lists
-            entities.append(name)
+            if len(parameters[name] > 0):
+                entities.append(name)
     intent = result.get("metadata").get("intentName")
     
     k = [intent]
