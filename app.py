@@ -24,6 +24,7 @@ app = Flask(__name__)
 
 with open("webhook_pickle.p", "rb") as p:
     responseDict = pickle.load(p)
+print(responseDict[(u'definir', u'conceito:Deus')])
 #responseDict = {
 #("definir","Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 #}
@@ -71,18 +72,18 @@ def processRequest(req):
         print("key found in dict:")
         print(responseDict[t])
         #TEMP
-        #response = random.sample(responseDict[t],1)[0]
-        response = responseDict[t][0]
-        print(response)
+        #answer = random.sample(responseDict[t],1)[0]
+        answer = responseDict[t][0]
+        print(answer)
     else:
-        response = "Desculpe, não entendi. Por favor faça outra pergunta."
+        answer = "Desculpe, não entendi. Por favor faça outra pergunta."
     
     print("Response:")
-    print(response)
+    print(answer)
 
     return {
-        "speech": response,
-        "displayText": response,
+        "speech": answer,
+        "displayText": answer,
         # "data": data,
         # "contextOut": [],
         "source": "apiai-webhook"
