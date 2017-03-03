@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 with open("webhook_pickle.p", "rb") as p:
     responseDict = pickle.load(p)
-print(responseDict[(u'definir', u'conceito:Deus')])
+print(responseDict[(u'definir', u'conceito:Deus')][0])
 #responseDict = {
 #(u"definir",u"conceito:Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 #}
@@ -70,10 +70,7 @@ def processRequest(req):
     # TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
     if t in responseDict.keys():
         print("key found in dict:")
-        print(responseDict[t])
-        #TEMP
-        #answer = random.sample(responseDict[t],1)[0]
-        answer = responseDict[t][0]
+        answer = random.sample(responseDict[t],1)[0]
         print(answer)
     else:
         answer = "Desculpe, não entendi. Por favor faça outra pergunta."
