@@ -22,12 +22,12 @@ import pickle
 # Flask app should start in global layout
 app = Flask(__name__)
 
-#with open("webhook_pickle.p", "rb") as p:
-#    responseDict = pickle.load(p)
-#print(responseDict[(u'definir', u'conceito:Deus')])
-responseDict = {
-(u"definir",u"conceito:Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
-}
+with open("webhook_pickle.p", "rb") as p:
+    responseDict = pickle.load(p)
+print(responseDict[(u'definir', u'conceito:Deus')])
+#responseDict = {
+#(u"definir",u"conceito:Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
+#}
 
 @app.route('/webhook', methods=['POST'])
 def webhook():

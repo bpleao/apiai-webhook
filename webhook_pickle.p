@@ -18,7 +18,7 @@ Vconceito:ideia
 p8
 tp9
 (lp10
-V13. Quando dizemos que Deus é eterno, infinito, imutável, imaterial, único, onipotente, soberanamente justo e bom, temos ideia completa de seus atributos? Do vosso ponto de vista, sim, porque credes abranger tudo. Sabei, porém, que há coisas que estão acima da inteligência do homem mais inteligente, as quais a vossa linguagem, restrita às vossas ideias e sensações, não tem meios de exprimir. 2 A razão, com efeito, vos diz que Deus deve possuir em grau supremo essas perfeições, porquanto, se uma lhe faltasse, ou não fosse infinita, já ele não seria superior a tudo, não seria, por conseguinte, Deus. 3 Para estar acima de todas as coisas, Deus tem que se achar isento de qualquer vicissitude e de qualquer das imperfeições que a imaginação possa conceber.
+S'13. Quando dizemos que Deus \xc3\xa9 eterno, infinito, imut\xc3\xa1vel, imaterial, \xc3\xbanico, onipotente, soberanamente justo e bom, temos ideia completa de seus atributos? Do vosso ponto de vista, sim, porque credes abranger tudo. Sabei, por\xc3\xa9m, que h\xc3\xa1 coisas que est\xc3\xa3o acima da intelig\xc3\xaancia do homem mais inteligente, as quais a vossa linguagem, restrita \xc3\xa0s vossas ideias e sensa\xc3\xa7\xc3\xb5es, n\xc3\xa3o tem meios de exprimir. 2\xc2\xa0A raz\xc3\xa3o, com efeito, vos diz que Deus deve possuir em grau supremo essas perfei\xc3\xa7\xc3\xb5es, porquanto, se uma lhe faltasse, ou n\xc3\xa3o fosse infinita, j\xc3\xa1 ele n\xc3\xa3o seria superior a tudo, n\xc3\xa3o seria, por conseguinte, Deus. 3\xc2\xa0Para estar acima de todas as coisas, Deus tem que se achar isento de qualquer vicissitude e de qualquer das imperfei\xc3\xa7\xc3\xb5es que a imagina\xc3\xa7\xc3\xa3o possa conceber.'
 p11
 as(g4
 Vconceito:Deus
@@ -27,7 +27,7 @@ Vqualidade:distinto
 p13
 tp14
 (lp15
-V14. Deus é um ser distinto, ou será, como opinam alguns, a resultante de todas as forças e de todas as inteligências do Universo reunidas? Se fosse assim, Deus não existiria, porquanto seria efeito e não causa. Ele não pode ser ao mesmo tempo uma e outra coisa
+S'14. Deus \xc3\xa9 um ser distinto, ou ser\xc3\xa1, como opinam alguns, a resultante de todas as for\xc3\xa7as e de todas as intelig\xc3\xaancias do Universo reunidas? Se fosse assim, Deus n\xc3\xa3o existiria, porquanto seria efeito e n\xc3\xa3o causa. Ele n\xc3\xa3o pode ser ao mesmo tempo uma e outra coisa'
 p16
 as(g4
 Vacaso
@@ -36,7 +36,7 @@ Vcausa_primaria
 p18
 tp19
 (lp20
-V8. Que se deve pensar da opinião dos que atribuem a formação primária a uma combinação fortuita da matéria, ou, por outra, ao acaso? Outro absurdo! Que homem de bom senso pode considerar o acaso um ser inteligente? E, demais, que é o acaso? Nada.
+S'8. Que se deve pensar da opini\xc3\xa3o dos que atribuem a forma\xc3\xa7\xc3\xa3o prim\xc3\xa1ria a uma combina\xc3\xa7\xc3\xa3o fortuita da mat\xc3\xa9ria, ou, por outra, ao acaso? Outro absurdo! Que homem de bom senso pode considerar o acaso um ser inteligente? E, demais, que \xc3\xa9 o acaso? Nada.'
 p21
 as(g4
 Vacaso
@@ -52,7 +52,7 @@ Vconceito:panteismo
 p27
 tp28
 (lp29
-V15. Que se deve pensar da opinião segundo a qual todos os corpos da Natureza, todos os seres, todos os globos do Universo seriam partes da Divindade e constituiriam, em conjunto, a própria Divindade, ou, por outra, que se deve pensar da doutrina panteísta? Não podendo fazer-se Deus, o homem quer ao menos ser uma parte de Deus.
+S'15. Que se deve pensar da opini\xc3\xa3o segundo a qual todos os corpos da Natureza, todos os seres, todos os globos do Universo seriam partes da Divindade e constituiriam, em conjunto, a pr\xc3\xb3pria Divindade, ou, por outra, que se deve pensar da doutrina pante\xc3\xadsta? N\xc3\xa3o podendo fazer-se Deus, o homem quer ao menos ser uma parte de Deus.'
 p30
 as(g26
 Vcampo:existir
@@ -63,14 +63,14 @@ Vconceito:Deus
 p33
 tp34
 (lp35
-V5. Que dedução se pode tirar do sentimento instintivo, que todos os homens trazem em si, da existência de Deus? A de que Deus existe; pois, donde lhes viria esse sentimento, se não tivesse uma base? É ainda uma consequência do princípio \u2014 não há efeito sem causa.
+S'5. Que dedu\xc3\xa7\xc3\xa3o se pode tirar do sentimento instintivo, que todos os homens trazem em si, da exist\xc3\xaancia de Deus? A de que Deus existe; pois, donde lhes viria esse sentimento, se n\xc3\xa3o tivesse uma base? \xc3\x89 ainda uma consequ\xc3\xaancia do princ\xc3\xadpio \xe2\x80\x94 n\xc3\xa3o h\xc3\xa1 efeito sem causa.'
 p36
 as(g26
 Vconceito:infinito
 p37
 tp38
 (lp39
-V2. Que se deve entender por infinito? O que não tem começo nem fim: o desconhecido; tudo o que é desconhecido é infinito.
+S'2. Que se deve entender por infinito? O que n\xc3\xa3o tem come\xc3\xa7o nem fim: o desconhecido; tudo o que \xc3\xa9 desconhecido \xc3\xa9 infinito.'
 p40
 as(g26
 Vcausa_primaria
@@ -79,7 +79,7 @@ Vinteligencia_divina
 p42
 tp43
 (lp44
-V9. Em que é que, na causa primária, se revela uma inteligência suprema e superior a todas as inteligências? Tendes um provérbio que diz: Pela obra se reconhece o autor. Pois bem! Vede a obra e procurai o autor. O orgulho é que gera a incredulidade. O homem orgulhoso nada admite acima de si. Por isso é que ele se denomina a si mesmo de espírito forte. Pobre ser, que um sopro de Deus pode abater!
+S'9. Em que \xc3\xa9 que, na causa prim\xc3\xa1ria, se revela uma intelig\xc3\xaancia suprema e superior a todas as intelig\xc3\xaancias? Tendes um prov\xc3\xa9rbio que diz: Pela obra se reconhece o autor. Pois bem! Vede a obra e procurai o autor. O orgulho \xc3\xa9 que gera a incredulidade. O homem orgulhoso nada admite acima de si. Por isso \xc3\xa9 que ele se denomina a si mesmo de esp\xc3\xadrito forte. Pobre ser, que um sopro de Deus pode abater!'
 p45
 as(g4
 Vconceito:Deus
@@ -88,7 +88,7 @@ Vconceito:infinito
 p47
 tp48
 (lp49
-V3. Poder-se-ia dizer que Deus é o infinito? Definição incompleta. Pobreza da linguagem humana, insuficiente para definir o que está acima da linguagem dos homens.
+S'3. Poder-se-ia dizer que Deus \xc3\xa9 o infinito? Defini\xc3\xa7\xc3\xa3o incompleta. Pobreza da linguagem humana, insuficiente para definir o que est\xc3\xa1 acima da linguagem dos homens.'
 p50
 as(g4
 Vcampo:educar
@@ -101,7 +101,7 @@ Vconceito:Deus
 p54
 tp55
 (lp56
-V6. O sentimento íntimo que temos da existência de Deus não poderia ser fruto da educação, resultado de ideias adquiridas? Se assim fosse, porque existiria nos vossos selvagens esse sentimento?
+S'6. O sentimento \xc3\xadntimo que temos da exist\xc3\xaancia de Deus n\xc3\xa3o poderia ser fruto da educa\xc3\xa7\xc3\xa3o, resultado de ideias adquiridas? Se assim fosse, porque existiria nos vossos selvagens esse sentimento?'
 p57
 as(g4
 Vconceito:Deus
@@ -118,7 +118,7 @@ Vconceito:Deus
 p63
 tp64
 (lp65
-V1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas.
+S'1. Que \xc3\xa9 Deus? Deus \xc3\xa9 a intelig\xc3\xaancia suprema, causa prim\xc3\xa1ria de todas as coisas.'
 p66
 as(g4
 Vcampo:compreender
@@ -129,7 +129,7 @@ Vconceito:ideia
 p69
 tp70
 (lp71
-V12. Embora não possamos compreender a natureza íntima de Deus, podemos formar ideia de algumas de suas perfeições? De algumas, sim. O homem as compreende melhor à proporção que se eleva acima da matéria. Entreve-as pelo pensamento.
+S'12. Embora n\xc3\xa3o possamos compreender a natureza \xc3\xadntima de Deus, podemos formar ideia de algumas de suas perfei\xc3\xa7\xc3\xb5es? De algumas, sim. O homem as compreende melhor \xc3\xa0 propor\xc3\xa7\xc3\xa3o que se eleva acima da mat\xc3\xa9ria. Entreve-as pelo pensamento.'
 p72
 as(g26
 Vcausa_primaria
@@ -146,9 +146,9 @@ Vconceito:homem
 p78
 tp79
 (lp80
-V10. Pode o homem compreender a natureza íntima de Deus? Não; falta-lhe para isso o sentido.
+S'10. Pode o homem compreender a natureza \xc3\xadntima de Deus? N\xc3\xa3o; falta-lhe para isso o sentido.'
 p81
-aV11. Será dado um dia ao homem compreender o mistério da Divindade? Quando não mais tiver o espírito obscurecido pela matéria. Quando, pela sua perfeição, se houver aproximado de Deus, ele o verá e compreenderá.
+aS'11. Ser\xc3\xa1 dado um dia ao homem compreender o mist\xc3\xa9rio da Divindade? Quando n\xc3\xa3o mais tiver o esp\xc3\xadrito obscurecido pela mat\xc3\xa9ria. Quando, pela sua perfei\xc3\xa7\xc3\xa3o, se houver aproximado de Deus, ele o ver\xc3\xa1 e compreender\xc3\xa1.'
 p82
 as(g4
 Vcampo:compreender
@@ -166,7 +166,7 @@ Vconceito:materia
 p88
 tp89
 (lp90
-V7. Poder-se-ia achar nas propriedades íntimas da matéria a causa primária da formação das coisas? Mas, então, qual seria a causa dessas propriedades? É indispensável sempre uma causa primária.
+S'7. Poder-se-ia achar nas propriedades \xc3\xadntimas da mat\xc3\xa9ria a causa prim\xc3\xa1ria da forma\xc3\xa7\xc3\xa3o das coisas? Mas, ent\xc3\xa3o, qual seria a causa dessas propriedades? \xc3\x89 indispens\xc3\xa1vel sempre uma causa prim\xc3\xa1ria.'
 p91
 as(g26
 Vcampo:existir
@@ -177,7 +177,7 @@ Vconceito:Deus
 p94
 tp95
 (lp96
-V4. Onde se pode encontrar a prova da existência de Deus? Num axioma que aplicais às vossas ciências. Não há efeito sem causa. Procurai a causa de tudo o que não é obra do homem e a vossa razão responderá.
+S'4. Onde se pode encontrar a prova da exist\xc3\xaancia de Deus? Num axioma que aplicais \xc3\xa0s vossas ci\xc3\xaancias. N\xc3\xa3o h\xc3\xa1 efeito sem causa. Procurai a causa de tudo o que n\xc3\xa3o \xc3\xa9 obra do homem e a vossa raz\xc3\xa3o responder\xc3\xa1.'
 p97
 as(g26
 Vconceito:Deus
@@ -236,7 +236,7 @@ Vconceito:panteismo
 p124
 tp125
 (lp126
-V16. Pretendem os que professam esta doutrina achar nela a demonstração de alguns dos atributos de Deus: Sendo infinitos os mundos, Deus é, por isso mesmo, infinito; não havendo o vazio, ou o nada em parte alguma, Deus está por toda parte; estando Deus em toda parte, pois que tudo é parte integrante de Deus, ele dá a todos os fenômenos da Natureza uma razão de ser inteligente. Que se pode opor a este raciocínio? A razão. Refleti maduramente e não vos será difícil reconhecer-lhe o absurdo.
+S'16. Pretendem os que professam esta doutrina achar nela a demonstra\xc3\xa7\xc3\xa3o de alguns dos atributos de Deus: Sendo infinitos os mundos, Deus \xc3\xa9, por isso mesmo, infinito; n\xc3\xa3o havendo o vazio, ou o nada em parte alguma, Deus est\xc3\xa1 por toda parte; estando Deus em toda parte, pois que tudo \xc3\xa9 parte integrante de Deus, ele d\xc3\xa1 a todos os fen\xc3\xb4menos da Natureza uma raz\xc3\xa3o de ser inteligente. Que se pode opor a este racioc\xc3\xadnio? A raz\xc3\xa3o. Refleti maduramente e n\xc3\xa3o vos ser\xc3\xa1 dif\xc3\xadcil reconhecer-lhe o absurdo.'
 p127
 as(g26
 Vinteligencia_divina
