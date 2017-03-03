@@ -52,13 +52,13 @@ def processRequest(req):
     
     entities = []
     parameters = result.get("parameters")
-    for parameter in parameters:
-        for value in parameters[parameter]:
-            if isinstance(value,dict):
-                entities.append(parameter)
-                break
-            else:
-                entities.append(":".join([parameter,value]))
+    for name in parameters:
+        if isinstance(parameters[name],list):
+            for value in parameters[name]:
+                entities.append(":".join([name,value]))
+        else:
+            # composite values are not provided as lists
+            entities.append(name)
     intent = result.get("metadata").get("intentName")
     
     k = [intent]
