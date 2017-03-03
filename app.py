@@ -26,7 +26,7 @@ app = Flask(__name__)
 #    responseDict = pickle.load(p)
 #print(responseDict[(u'definir', u'conceito:Deus')])
 responseDict = {
-(u"definir",u"conceito:Deus"):[u"1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
+(u"definir",u"conceito:Deus"):["1. Que é Deus? Deus é a inteligência suprema, causa primária de todas as coisas."]
 }
 
 @app.route('/webhook', methods=['POST'])
