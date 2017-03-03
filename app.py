@@ -68,7 +68,8 @@ def processRequest(req):
     
     # TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
     if t in responseDict.keys():
-        print("key found in dict")
+        print("key found in dict:")
+        print(responseDict[t])
         response = random.sample(responseDict[t],1)[0]
     else:
         response = "Desculpe, não entendi. Por favor faça outra pergunta."
