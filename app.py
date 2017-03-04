@@ -18,7 +18,6 @@ from flask import make_response
 
 import random
 import pickle
-import numpy as np
 
 # Flask app should start in global layout
 app = Flask(__name__)
@@ -78,7 +77,6 @@ def processRequest(req):
     k = findBestKey(intent, list(set(entities)))
     print(k)
     
-    # TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
     if k is not None:
         answer = random.sample(responseDict[k],1)[0]
     else:
