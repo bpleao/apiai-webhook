@@ -18,6 +18,7 @@ from flask import make_response
 
 import random
 import pickle
+import numpy as np
 
 # Flask app should start in global layout
 app = Flask(__name__)
@@ -44,7 +45,19 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return r
 
-
+def findBestKey(intent, entities):
+    intentList = [intent]
+    t = tuple(intentList + sorted(entities))
+    if t in responseDict.keys():
+        return t
+    # find length of intersection with entity list in each key, only if entity is the same
+    nIntersect = [len(set(entities).intersection(set(list(k)[1:]))) if list(k)[0] == intent else 0 for k in responseDict.keys()]
+    maxIntersect = max(nIntersect)
+    if maxIntersect == 0:
+        return None
+    intersectKeys = [k for k,n in zip(responseDict.keys(),nIntersect) if n == maxIntersect]
+    return random.sample(intersectKeys,1)[0]
+    
 def processRequest(req):
     result = req.get("result")
     if result.get("action") != "getSpiritsBookResponse":
@@ -62,17 +75,12 @@ def processRequest(req):
                 entities.append(name)
     intent = result.get("metadata").get("intentName")
     
-    k = [intent]
-    # eliminating duplicate entries and sorting to transform to tuple
-    k.extend(sorted(list(set(entities))))
-    t = tuple(k)
-    print(t)
+    k = findBestKey(intent, list(set(entities)))
+    print(k)
     
     # TODO: parcial match of itens in key must also be considered. Is an order of priority also required?
-    if t in responseDict.keys():
-        print("key found in dict:")
-        answer = random.sample(responseDict[t],1)[0]
-        print(answer)
+    if k is not None:
+        answer = random.sample(responseDict[k],1)[0]
     else:
         answer = "Desculpe, não entendi. Por favor faça outra pergunta."
     
